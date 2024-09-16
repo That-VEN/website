@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    align-items: center;
+    background: rgba(220, 220, 220, 0.24);
+    padding: 20px;
+}
+
+.nav-left{
+    flex: 1;
+    padding: 0 70px;
+    font-size: 20px;
+    color: rgba(171, 164, 164, 0.774);
+}
+
+.nav-right{
+    flex: 1; 
+    margin-right:40px ;   
+}
+
+ul ,li, a{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+ li a{
+    font-size: 17px;
+    font-weight: normal;
+ }
+
+.nav-right button{
+    width: 140px;
+    height:10vh;
+    background: #000;
+    color: rgba(255, 255, 255, 0.895);
+    border: none;
+    font-weight: bold;
+}
+/*main .............................................>*/
+.main{
+    display: flex;
+    flex: 2;
+    background: #000000;
+}
+
+.main-contant{
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 12%  30px 0 100px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin-top: 90px;
+    font-weight: bold;
+}
+
+.form-group{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;  
+    border-radius: 25px;   
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    margin: 12px 0;
+    align-content: center;
+    gap: 10px;
+}
+.form-aside{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.form-text{
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.form{
+    width: 28%;
+    display: flex;
+    flex-direction: column;  
+    margin-top: 20px;    
+}
+
+label{
+    color: rgba(57, 54, 54, 0.922);
+}
+
+input{
+    padding: 25px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(201, 193, 193);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.form-group button{
+    width:69%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-radius:30px ;
+    margin: 30px 0 90px 0;
+    background: rgba(223, 9, 9, 0.861);
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+button:hover{
+    background: #000;
+}
+/* >.................................................> */
+aside{
+    height: 120vh; 
+}
+.aside-top{
+  margin: 30px 50px;
+    
+}
+.aside-top h2{
+    text-align: center;
+    font-size: 40px;
+    margin:0 150px ;
+}
+.aside-bottum{
+    display: flex;
+    margin: 90px 80px;
+    gap: 75px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: sans-serif;  
+    
+}
+
+.aside-bottum p{
+    font-size:28px;
+    color: gray;
+    
+}
+.aside-left{
+    width: 31%;
+    border-right: 1px solid rgba(128, 128, 128, 0.555);
+}
+.aside-center{
+    width:24%;
+    border-right: 1px solid rgba(128, 128, 128, 0.555);
+    position: relative;
+    
+}
+.aside-right{
+    width: 31%;
+    
+}
+.form-h3{
+    margin: 50px 0 20px 0;
+}
+.form-h3 h3{
+    font-size: 28px;
+    color: rgba(76, 74, 74, 0.662);
+}
+/* section>........................... */
+section{
+    height: 55vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    gap: 15px;
+
+    
+}
+.card{
+    width: 24%;
+    font-size: 18px;
+    position: relative;
+    left: 10px; 
+}
+.card h2{
+    margin: 20px 0;
+}
+/* .contant>.............................. */
+.contant{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.contant-text{
+    width: 35%;   
+    margin-top: 13%;
+    position: relative;
+    left: 100px;
+    right: 100px; 
+    font-weight: normal;
+}
+.contant-text h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.contact-img{
+width: 65%;
+
+}
+.contact-img img{
+    width: 65%;
+    margin-left: 30%;
+} 
+
+.button button{
+    width: 35%;
+    height: 9vh;
+    margin-top:40px ;
+    font-size: 17px;
+}
+#btn{
+    background: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.btn{
+    border-radius: 25px;
+    border: 1px solid gray;
+    position: relative;
+    left: 25px;
+}
+.btn:hover{
+    color: white;
+}
+.atical{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    margin-top: 5vh;
+    gap: 10px;
+}
+.inner-contaner{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    margin: 0 300px;
+   
+}
+.inner-contaner h4{
+    font-size: 14px;
+    color: rgba(253, 1, 1, 0.861);
+    margin-bottom: 20px;
+}
+.inner-contaner h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.card-number{
+    width: 23%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;   
+}
+.circle{
+    width: 60%;
+    height: 30vh;
+    background: #f4b6b645;
+    border-radius: 100px;
+    margin-bottom: 40px;
+    
+}
+.circle h1{
+    position: relative;
+    left: 70px;
+    top: 50px;
+    color: rgb(220, 23, 85);
+}
+.card-number h3{
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+}
+.card-number p{
+    font-size: 16px;
+    margin:0 10px;
+    text-align: center;
+}
+/* .sec>.......................... */
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 30px;
+}
+.text-container{
+    width: 100%;
+   text-align: center;
+   margin: 0 350px;
+   
+}
+.text-container h2{
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    margin: 0 100px;
+    
+}
+.box .card{
+    width: 48%;
+    height: 45vh;
+    display: flex;
+    font-size: 22px;
+    border-radius: 15px;
+    gap: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    
+}
+img{
+    border-radius: 10px;
+}
+.img{
+    margin: 40px 0 0 60px;   
+}
+.block{
+    margin: 70px 70px 0 0;
+}
+.block p{
+    font-size: 17px;
+    margin-top: 10px;
+}
+/* .sec1>.......................... */
+.sec1{
+    background: rgba(0, 0, 0, 0.929);
+    margin-top: 60px;
+}
+.card-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+    gap: 30px;
+}
+.item{
+    width: 40%;
+    height: 42vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+.title-BRIX{
+    display: flex;
+    gap: 25px;
+    margin: 50px 40px 10px 40px;
+    font-weight: normal;
+      
+}
+.title-BRIX h3{
+    font-size: 24px;
+}
+.wrapper{
+    width: 50px;
+    height: 9vh;
+    text-align: center;
+    background: rgba(214, 217, 217, 0.308);
+    border-radius: 5px;
+}
+.wrapper p{
+    font-size: 35px;
+    position: relative;
+    right: 25px;
+    top: 5px;
+}
+.item p{
+    margin: 0 70px 0 40px;
+    color: rgba(128, 128, 128, 0.916);
+}
+footer{
+    width: 100%;
+    
+}
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 0 110px ;
+}
+.wrap{
+    width: 19%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 7px;
+} 
+.wrap h3{
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.new{
+    display: flex;
+    gap: 10px;
+}
+span{
+    background: #000;
+    padding: 3px 10px;
+    color: white;
+    border-radius: 15px;
+}
+.footer-center{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    margin: 40px 110px;
+    
+}
+.wrap1 ul li:nth-child(1){
+    border-bottom: 1px solid black ;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 110px 30px 110px;
+    font-weight: normal;
+    color: rgb(78, 77, 77);
+}
+.left{
+    display: flex;
+    gap: 20px;
+}
+.footer-bottom h5{
+    font-size: 16px;
+}
+
+
+
+
+
